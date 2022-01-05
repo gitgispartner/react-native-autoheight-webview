@@ -23,7 +23,7 @@ const updateSizeWithMessage = (element, scalesPageToFit) =>
   var lastHeight = 0;
   var heightTheSameTimes = 0;
   var maxHeightTheSameTimes = 5;
-  var forceRefreshDelay = 1000;
+  var forceRefreshDelay = 100;
   var forceRefreshTimeout;
   var checkPostMessageTimeout;
 
