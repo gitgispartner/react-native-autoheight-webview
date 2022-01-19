@@ -22,7 +22,7 @@ const updateSizeWithMessage = (element, scalesPageToFit) =>
   var zoomedin = false;
   var lastHeight = 0;
   var heightTheSameTimes = 0;
-  var maxHeightTheSameTimes = 5;
+  var maxHeightTheSameTimes = 10;
   var forceRefreshDelay = 100;
   var forceRefreshTimeout;
   var checkPostMessageTimeout;
